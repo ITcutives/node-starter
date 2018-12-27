@@ -1,0 +1,23 @@
+{
+  "name": "@itcutives/node-starter",
+  "version": "1.0.0",
+  "description": "ITcutives Node-Starter Project",
+  "author": "riddhi@itcutives.com",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "git@github.com:ITcutives/node-starter.git",
+  "keywords": [
+    "itcutives"
+  ],
+  "scripts": {
+    "test": "jest",
+    "pretest": "eslint ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0"
+  }
+}
